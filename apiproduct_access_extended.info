@@ -1,5 +1,5 @@
-name = DevConnect Limit API Product by Role
-description = Allows API Products to be limited by Drupal role
+name = DevConnect Limit API Product by Role (Extended)
+description = Allows API Products to be limited by Drupal role, with default role set.
 core = 7.x
 package = Dev Portal - Extensions
 php = 5.3
