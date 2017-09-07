@@ -152,7 +152,7 @@ function apiproduct_access_extended_admin_form($form, &$form_state) {
   }
 
   $tprefix = '';
-  $tsuffix = '<table class=\'pure-table pure-table-striped\'><thead>tr><th>API Product</th>';
+  $tsuffix = '<table class=\'pure-table pure-table-striped\'><thead><tr><th>API Product</th>';
   foreach ($roles as $rid => $role_name) {
     $tsuffix .= '<th>' . htmlspecialchars($role_name) . '</th>';
   }
