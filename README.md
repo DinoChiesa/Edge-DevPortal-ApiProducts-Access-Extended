@@ -7,9 +7,12 @@ devconnect API Product Access module.
 This module supplants that module, providing these extensions and improvements:
 
 * "default" access for an API Product.
-  When you add a new API Product, it will be exposed to a specific default set of roles.
-  The original module always defaulted to exposing the API Product to "any logged-in developer".
-  See [This question on the Apigee Community](https://community.apigee.com/questions/46219/api-product-role-access-default-value.html)
+  When you add a new API Product, it will be exposed to a specific default set of roles. For
+  example, if you set the default roles for new products to be "administrator", then all new users
+  will not see any new products, even if they are marked public, unless and until you allow access
+  to that product.  The original module always defaulted to exposing all "public" API Products to
+  "any logged-in developer".  See [This question on the Apigee
+  Community](https://community.apigee.com/questions/46219/api-product-role-access-default-value.html)
 
 * better administrative form for configuration.
   The form is now a table, with checkboxes arranged in rows.  Example:
