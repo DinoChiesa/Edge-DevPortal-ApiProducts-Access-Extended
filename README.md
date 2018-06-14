@@ -24,7 +24,10 @@ This module supplants that module, providing these extensions and improvements:
 ## Installing
 
 You should download all the files for this module into a directory named
-sites/all/modules/custom/apiproduct_access_extended .  Then enable the module as normal,
+```
+sites/all/modules/custom/apiproduct_access_extended
+```
+Then enable the module as normal,
 in the Drupal Module administration panel.
 
 ## Configuring
@@ -38,21 +41,22 @@ to any newly-added API Product. This is the "default set of roles" that will app
 API Product unless and until you explicitly provide roles for that product.
 
 For example, if you want no users to be able to see any API Product until you explicitly
-specifies roles for the product, tick no boxes under "Default roles".
+specify roles for the product, tick no boxes under "Default roles".
+
+At any point in time an administrator can modify the roles that will have access to a specific existing API Product.
 
 
 ## Compatibility
 
 You could theoretically use this module along with the original devconnect apiproduct access module, but
-it does not make much sense to do so.  If you use this module, you should disable the other module.
-
+it does not make much sense to do so. If you use this module, you should disable the other module.
 
 ## Upgrade
 
-There is no "upgrade" from the existing devconnect apiproduct access module.  If you
+There is no "upgrade" from the existing devconnect apiproduct access module. If you
 have previously used the devconnect apiproduct access module, there is no automatic
-migration of settings from that module, to this one.  You will have to manually
-reproduce the settings.
+migration of settings from that module, to this one. You will have to manually
+reproduce the settings. It won't be difficult.
 
 ## Warranty
 
@@ -66,7 +70,6 @@ other dealings in the software.
 ## Support Status
 
 This module is not a supported part of the Apigee Edge Drupal-based developer portal.
-This module is open-source software. If you need assistance, you can try inquiring on
+This module is open-source software. If you need assistance, inquire on
 [The Apigee Community Site](https://community.apigee.com).  There is no service-level
 guarantee for responses to inquiries regarding this module.
-
