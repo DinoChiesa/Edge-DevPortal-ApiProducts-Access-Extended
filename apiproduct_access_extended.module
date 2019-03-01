@@ -226,7 +226,11 @@ function apiproduct_access_extended_admin_form($form, &$form_state) {
 }
 
 function apiproduct_access_extended_clean_name($name) {
-  return str_replace(' ', '_', strtolower($name));
+  // drupal doesn't like variable names with special characters,
+  // so lets clean the name up for use within the database.
+  return str_replace('.', '_',
+                     str_replace('-', '_', 
+                                 str_replace(' ', '_', strtolower($name))));
 }
 
 function apiproduct_access_extended_variable_name($product_name, $role_id) {
