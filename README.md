@@ -1,7 +1,7 @@
 # API Product RBAC - Extended
 
 This module provides Role-Based Access control to API Products for users in the Apigee
-Edge Drupal-based developer portal. This module originated as a fork of the builtin
+Edge Drupal-7 based developer portal. This module originated as a fork of the builtin
 devconnect API Product Access module.
 
 This module supplants that module, providing these extensions and improvements:
